@@ -1,3 +1,15 @@
+/* This is top header compoent style */
+.breadcrumbTop {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    /* margin-bottom: 1rem; */
+    list-style: none;
+    background-color: white;
+    border-radius: .25rem;
+}
 /* This is main compoent style */
 .mainBody{
     padding-left: 10%;
