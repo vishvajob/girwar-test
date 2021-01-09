@@ -2,15 +2,12 @@ import React from 'react';
 import { Accordion, Card } from 'react-bootstrap';
 import "../../assest/style.css"
 
-
-// const 
-
 const DeatilsComponent=(propData)=>{
     return <Accordion>
-    <Card>
-      <Accordion.Toggle as={Card.Header} eventKey="0"> <b>Nutrition fact</b> </Accordion.Toggle>
+    <Card className="card-body">
+      <Accordion.Toggle as={Card.Header}eventKey="0"> <b>Nutrition fact</b> </Accordion.Toggle>
       <Accordion.Collapse eventKey="0">
-        <Card.Body>
+        <Card.Body >
             <NutritionFactTable />
         </Card.Body>
       </Accordion.Collapse>
@@ -87,8 +84,5 @@ const NutritionFactTable=(propsData)=>{
         </tbody>
     </table>
 }
-
-
-
 
 export default DeatilsComponent;

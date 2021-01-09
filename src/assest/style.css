@@ -17,7 +17,7 @@
 }
 
 .image{
-    width: 15%; 
+    width: 25%; 
 }
 
 .jumbotronOn {
@@ -31,4 +31,23 @@
 
 .mainTable{
     width: 100%;
+}
+
+.card-body{
+    border-radius: 20px;
+}
+
+/* This is about us component style */
+
+.ul-modify{
+    margin-top: 20px;
+    color: #A2EB5C;
+}
+
+.hr-border-top{
+    border-top: 2px solid;
+}
+
+.p-text{
+ font-size: 10px;
 }
