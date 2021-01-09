@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import JumbotronEelement from './Jumbotron/JumbotronElement';
 
 class MainCompoent extends Component {
     state = {  }
     render() { 
-        return <h2>Main Compoent</h2>;
+        return <>
+        <JumbotronEelement />
+        </>
     }
 }
  

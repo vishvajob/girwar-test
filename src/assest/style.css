@@ -1,0 +1,22 @@
+/* This will used jumbotrom component */
+.mainText{
+    font-family: "Allan";
+    font-style: italic;
+    font-size: xxx-large;
+}
+
+.subText{
+    float: left;
+    width: 70%;
+}
+
+.image{
+    width: 15%; 
+}
+
+.jumbotronOn {
+    padding: 2rem 1rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    overflow: hidden;
+}
