@@ -1,3 +1,9 @@
+/* This is main compoent style */
+.mainBody{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* This will used jumbotrom component */
 .mainText{
     font-family: "Allan";
@@ -19,4 +25,10 @@
     background-color: #e9ecef;
     border-radius: .3rem;
     overflow: hidden;
+}
+
+/* This Details Compoent style*/
+
+.mainTable{
+    width: 100%;
 }
